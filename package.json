@@ -1,0 +1,20 @@
+{
+  "name": "feature-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "devbuild": "vite build --mode development --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^2.7.0-0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "2.0.0",
+    "vite-plugin-externals": "^0.5.1",
+    "vite": "^3.1.0"
+  }
+}
